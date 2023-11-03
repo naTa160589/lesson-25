@@ -1,0 +1,340 @@
+{
+  "id": "8aec92ae-19a8-4e09-892e-66388e8ea4fd",
+  "version": "2.0",
+  "name": "ysk",
+  "url": "https://jysk.ua",
+  "tests": [{
+    "id": "6a422193-e6c2-44c2-863c-774e8075e6fb",
+    "name": "jysk.",
+    "commands": [{
+      "id": "b3987118-88c8-43b4-92e9-8e8c965ac759",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfb3af52-5c40-46a4-82ae-d54c126c6aa8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ff60a969-fd58-4569-aa9c-ab676a4944b9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.grid-stack-item:nth-child(2) .img-responsive",
+      "targets": [
+        ["css=.grid-stack-item:nth-child(2) .img-responsive", "css:finder"],
+        ["xpath=//img[contains(@src,'https://jysk.ua/sites/jysk.ua/files/styles/full_optimized/public/2023-11/UA2.jpg?itok=9b2sbXCX')]", "xpath:img"],
+        ["xpath=//div[@id='site']/div[3]/div[2]/main/div/div/div/div/div/div/div/div[2]/a/div/div/picture/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/div/picture/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5bad784-4507-4360-bcea-c130bb3a37f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.slick-slide:nth-child(6) .product-teaser-header",
+      "targets": [
+        ["css=.slick-slide:nth-child(6) .product-teaser-header", "css:finder"],
+        ["xpath=//div[@id='site']/div[3]/div[3]/section/div/section/article/div/div/div/div[8]/div/div/div/div/div[6]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c63d8e72-7317-4619-8def-7d790915f130",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Ельф FAFNER в.70см червоний",
+      "targets": [
+        ["linkText=Ельф FAFNER в.70см червоний", "linkText"],
+        ["css=.slick-slide:nth-child(6) .product-teaser-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Ельф FAFNER в.70см червоний')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div[3]/div[3]/section/div/section/article/div/div/div/div[8]/div/div/div/div/div[6]/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/rizdvo/rizdvyani-elfi/elf-fafner-v70sm-chervonyy')])[2]", "xpath:href"],
+        ["xpath=//div[6]/div/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ельф FAFNER в.70см червоний')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0cf71269-d002-41a3-aee7-3bd2f7a3d009",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Ельф FAFNER в.70см червоний",
+      "targets": [
+        ["linkText=Ельф FAFNER в.70см червоний", "linkText"],
+        ["css=.slick-slide:nth-child(6) .product-teaser-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Ельф FAFNER в.70см червоний')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div[3]/div[3]/section/div/section/article/div/div/div/div[8]/div/div/div/div/div[6]/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/rizdvo/rizdvyani-elfi/elf-fafner-v70sm-chervonyy')])[2]", "xpath:href"],
+        ["xpath=//div[6]/div/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ельф FAFNER в.70см червоний')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0f6249d-257b-45e7-a9db-b83e2cfde5d6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ельф FAFNER в.70см червоний",
+      "targets": [
+        ["linkText=Ельф FAFNER в.70см червоний", "linkText"],
+        ["css=.slick-slide:nth-child(6) .product-teaser-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Ельф FAFNER в.70см червоний')]", "xpath:link"],
+        ["xpath=//div[@id='site']/div[3]/div[3]/section/div/section/article/div/div/div/div[8]/div/div/div/div/div[6]/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/rizdvo/rizdvyani-elfi/elf-fafner-v70sm-chervonyy')])[2]", "xpath:href"],
+        ["xpath=//div[6]/div/div/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ельф FAFNER в.70см червоний')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "6b9d8b37-8d37-40ba-9250-33e97eef554b",
+    "name": "click on logo",
+    "commands": [{
+      "id": "56b005a4-57da-4127-9f75-6bf9e9fec80e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fd415c6-ce99-4028-96d1-b74b87cc8879",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Різдво",
+      "targets": [
+        ["linkText=Різдво", "linkText"],
+        ["css=li:nth-child(10) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Різдво')]", "xpath:link"],
+        ["xpath=//div[@id='site-nav-collapse']/div/div/nav/ul/li[10]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/rizdvo')]", "xpath:href"],
+        ["xpath=//li[10]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Різдво')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e71a8e3-73ce-4fb6-a26a-b34e557999ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.d-block > path:nth-child(2)",
+      "targets": [
+        ["css=.d-block > path:nth-child(2)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfb4d1d4-00b2-4fe5-958b-af70b2d588d4",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.top-basket-items:nth-child(2) use",
+      "targets": [
+        ["css=.top-basket-items:nth-child(2) use", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e956d0f-dd84-4cf6-b232-31c0a5f07781",
+      "comment": "",
+      "command": "assertText",
+      "target": "linkText=Різдво",
+      "targets": [
+        ["css=.text-dark:nth-child(5) .icon-text", "css:finder"],
+        ["xpath=//div[@id='site']/div/div/div/div/div/div/a[5]/span/span", "xpath:idRelative"],
+        ["xpath=//a[5]/span/span", "xpath:position"]
+      ],
+      "value": "Різдво"
+    }]
+  }, {
+    "id": "f8e4911f-3f3f-4ce8-ad1d-8ecbe0f8111e",
+    "name": "add to cart from search",
+    "commands": [{
+      "id": "e1111348-9071-4a69-af92-aa86e0dd3b2a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5da40b2d-d39b-4235-9b77-cb19e5f3b2e2",
+      "comment": "",
+      "command": "click",
+      "target": "id=site",
+      "targets": [
+        ["css=.is-valid", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div/div/div/section/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//section/div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af6b6c8f-db4a-444d-8ce7-880be3e97c45",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//header[@id='header']/div/div/div/section/div/div/form/input",
+      "targets": [
+        ["css=.is-valid", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div/div/div/section/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//section/div/div/form/input", "xpath:position"]
+      ],
+      "value": "Різдвяні ельфи"
+    }, {
+      "id": "dce337e3-23cb-4e2e-9aeb-c9c6161ea2ff",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-input-text",
+      "targets": [
+        ["css=.search-input-text", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div/section/div/div/form/div/button/span", "xpath:idRelative"],
+        ["xpath=//form/div/button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Пошук')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d015c40-4e5c-4bd2-9a65-fc2bc69cf292",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.search-input-text",
+      "targets": [],
+      "value": "Пошук"
+    }, {
+      "id": "4bee2a27-1724-4c31-ac62-f1b423491420",
+      "comment": "",
+      "command": "open",
+      "target": "elf-fafner-v70sm-chervonyy",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f31df9f3-f520-48ad-b60a-e5253acfd229",
+      "comment": "",
+      "command": "click",
+      "target": "css=.top-basket-items:nth-child(2) > .icon",
+      "targets": [
+        ["css=.top-basket-items:nth-child(2) > .icon", "css:finder"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "b5648833-e842-4646-ba1c-b276835b29fc",
+    "name": "2",
+    "commands": [{
+      "id": "986ffde4-c6a8-4e84-b24e-5481d4c7783b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65fab6bb-e8ad-44a7-8cd9-3a9510f2f0e2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "567x691",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "822fb852-959a-4828-8e99-683e0ff13384",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "css=.is-valid",
+      "targets": [
+        ["css=.is-valid", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div/div/div/section/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e3aa47de-7964-416c-9075-f14b015c9f57",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "css=.pane-top-banner",
+      "targets": [
+        ["css=.pane-top-banner", "css:finder"],
+        ["xpath=//div[@id='site']/div[3]/div[2]/main/div/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7e8a43f-8245-466b-af94-ce801a981e11",
+      "comment": "",
+      "command": "click",
+      "target": "id=site",
+      "targets": [
+        ["id=site", "id"],
+        ["css=#site", "css:finder"],
+        ["xpath=//div[@id='site']", "xpath:attributes"],
+        ["xpath=//body/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fc6c83d-160a-4f06-8c9f-6d6dc4d93a8c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.is-valid",
+      "targets": [
+        ["css=.is-valid", "css:finder"],
+        ["xpath=//input[@value='різд']", "xpath:attributes"],
+        ["xpath=//header[@id='header']/div/div/div/section/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//section/div/div/form/input", "xpath:position"]
+      ],
+      "value": "різд"
+    }, {
+      "id": "1329f915-c145-4954-a593-566b36695f87",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-suggestion--category:nth-child(2) .search-suggestion__title",
+      "targets": [
+        ["css=.search-suggestion--category:nth-child(2) .search-suggestion__title", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div/section/div/div/div/div/div/ol/li/ol/li[2]/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f448e2d4-e8a2-4d67-86b8-3fada7e4b040",
+      "comment": "",
+      "command": "click",
+      "target": "css=.search-suggestion--product:nth-child(2) .search-suggestion__title",
+      "targets": [
+        ["css=.search-suggestion--product:nth-child(2) .search-suggestion__title", "css:finder"],
+        ["xpath=//header[@id='header']/div/div/div/section/div/div/div/div/div/ol/li[2]/ol/li[2]/a/div", "xpath:idRelative"],
+        ["xpath=//li[2]/ol/li[2]/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fe56b15-3590-4e1a-a4e5-f79e204fd94c",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1221)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5b9a850d-9434-4213-90df-a8bade93fa9b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-sumup-content",
+      "targets": [
+        ["css=.product-sumup-content", "css:finder"],
+        ["xpath=//article[@id='node-320645']/section/main/div/div[4]/div/div/div", "xpath:idRelative"],
+        ["xpath=//main/div/div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6921638-d479-4151-a5d4-969e96da7bd1",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1100)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7aba376c-d97c-46ad-a1d7-8a41a316b3da",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6a422193-e6c2-44c2-863c-774e8075e6fb"]
+  }],
+  "urls": ["https://jysk.ua/"],
+  "plugins": []
+}
